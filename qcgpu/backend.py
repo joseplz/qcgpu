@@ -8,6 +8,7 @@ from collections import defaultdict
 
 # Get the OpenCL kernel
 kernel = """
+#define PYOPENCL_DEFINE_CDOUBLE
 #include <pyopencl-complex.h>
 
 /*
